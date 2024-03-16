@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.container
+{
+display: flex;
+align-items: center;
+justify-content: center;
+align-content: center;
+height: 400px;
+width:400px;
+background-color:cadetblue;
+margin-top: 130px;
+margin-left: 460px;
+position: relative;
+
+}
+
+#hello
+{
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: rgb(145, 207, 207);
+}
+
+
+#add
+{
+    padding: 13px;
+    border-radius: 12px;
+    background-color:rgb(189, 157, 179);
+    cursor: pointer;
+    font-size: large;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
